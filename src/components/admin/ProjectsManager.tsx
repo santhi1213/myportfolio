@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, Edit, Trash2, Save, X, Star, ExternalLink, Github, Loader2, RefreshCw, Upload, Image as ImageIcon } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:5065/api';
+const API_BASE_URL = 'https://portfolio-node-backend-eskk.onrender.com/api';
 
 interface Project {
   _id?: string;

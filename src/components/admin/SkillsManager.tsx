@@ -18,7 +18,7 @@ const SkillsManager = () => {
     category: 'frontend'
   });
 
-  const API_URL = 'http://localhost:5065/api/Skill';
+  const API_URL = 'https://portfolio-node-backend-eskk.onrender.com/api/Skill';
 
   const categories = [
     { value: 'frontend', label: 'Frontend', color: 'from-blue-400 to-blue-600' },

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Code, Database, Server, Smartphone } from "lucide-react";
 
-const API_URL = "http://localhost:5065/api/About";
+const API_URL = "https://portfolio-node-backend-eskk.onrender.com/api/About";
 
 interface AboutInfo {
   id?: string;

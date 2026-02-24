@@ -9,7 +9,7 @@ const ContactManager = () => {
   const [isLoading, setIsLoading] = useState(true);
   const hasFetched = useRef(false); // Prevent multiple fetches
 
-  const API_URL = 'http://localhost:5065/api/Contact';
+  const API_URL = 'https://portfolio-node-backend-eskk.onrender.com/api/Contact';
 
   // Fetch contact info on mount - only once
   useEffect(() => {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Code, FolderOpen, User, TrendingUp, Star, RefreshCw, AlertCircle } from 'lucide-react';
 
-const API_URL = 'http://localhost:5065/api';
+const API_URL = 'https://portfolio-node-backend-eskk.onrender.com/api';
 
 const AdminDashboard = () => {
   const [stats, setStats] = useState({

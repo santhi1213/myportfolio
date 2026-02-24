@@ -24,7 +24,7 @@ const Contact = () => {
   useEffect(() => {
     const fetchContactInfo = async () => {
       try {
-        const response = await fetch('http://localhost:5065/api/Contact');
+        const response = await fetch('https://portfolio-node-backend-eskk.onrender.com/api/Contact');
         const data = await response.json();
         setContactInfo({
           email: data.email,
@@ -54,7 +54,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("http://localhost:5065/api/mail", {
+      const response = await fetch("https://portfolio-node-backend-eskk.onrender.com/api/mail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

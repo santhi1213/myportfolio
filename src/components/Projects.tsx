@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
 
   // ✅ Fetch data from API
   useEffect(() => {
-    fetch("http://localhost:5065/api/project")
+    fetch("https://portfolio-node-backend-eskk.onrender.com/api/project")
       .then((res) => res.json())
       .then((data) => {
         // Convert Base64 images to data URLs

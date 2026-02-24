@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Save, User, Briefcase, Award, Clock } from "lucide-react";
 
-const API_URL = "http://localhost:5065/api/About";
+const API_URL = "https://portfolio-node-backend-eskk.onrender.com/api/About";
 
 const AboutManager = () => {
   const [formData, setFormData] = useState({

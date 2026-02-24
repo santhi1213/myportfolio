@@ -12,7 +12,7 @@ const Skills = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const API_URL = 'http://localhost:5065/api/Skill';
+  const API_URL = 'https://portfolio-node-backend-eskk.onrender.com/api/Skill';
 
   // 🔹 Fetch skills from backend API
   const fetchSkills = async () => {
