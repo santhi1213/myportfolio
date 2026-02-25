@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 import { useData } from '../contexts/DataContext';
-import Resume from '../assets/Resume.pdf'
+import Resume from '../assets/Santhi_Raju.pdf'
 
 const Hero = () => {
   const { aboutInfo, contactInfo } = useData();
