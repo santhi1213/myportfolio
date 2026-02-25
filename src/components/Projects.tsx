@@ -15,6 +15,7 @@ type Project = {
 
 const Projects: React.FC = () => {
   const [projects, setProjects] = useState<Project[]>([]);
+  console.log(projects)
   const [filter, setFilter] = useState<string>("all");
 
   const categories = [
@@ -32,7 +33,7 @@ const Projects: React.FC = () => {
         // Convert Base64 images to data URLs
         const formatted: Project[] = data.map((project: any) => ({
           ...project,
-          image: `data:image/jpeg;base64,${project.image}`,
+          image: `${project.image}`,
         }));
         setProjects(formatted);
       })
